@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.hero {
+    height: 450px;
+    background-image: url("https://images.unsplash.com/photo-1504892612018-159ffa1d147f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    /*https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80*/
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+    padding-left: 150px;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.text-subtitle {
+    color: #ffffff73;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.image-subtitle {
+    color: #00000045;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.image-row {
+    margin-bottom: 40px;
+}
+
+.portfolio-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header-links {
+    color: #fff;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-links:hover {
+    color: #ffffff;
+}
