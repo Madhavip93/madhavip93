@@ -18,6 +18,16 @@ body {
     height: 300px;
 }
 
+.profile-picture {
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .text-title {
     font-size: 2.2rem;
