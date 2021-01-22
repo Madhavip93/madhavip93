@@ -5,17 +5,44 @@ body {
 }
 
 .hero {
-    height: 450px;
     background-image: url("https://images.unsplash.com/photo-1504892612018-159ffa1d147f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
     /*https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80*/
     background-position-y: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 30px;
-    padding-left: 150px;
     color: #fff;
     margin-bottom: 80px;
 }
+
+.hero-height {
+    height: 300px;
+}
+
+
+.text-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.00rem;
+}
+
+@media (min-width: 768px) {
+    .hero-height {
+        height: 450px;
+    }
+
+    .text-title {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+}
+
 
 .text-subtitle {
     color: #ffffff73;
@@ -41,7 +68,7 @@ body {
 }
 
 .header-links {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.68);
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
