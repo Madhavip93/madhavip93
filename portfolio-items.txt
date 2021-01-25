@@ -1,5 +1,5 @@
 DM0.jpg
-text for 0
+blah blah
 DM1.jpg
 text for 1
 DM2.jpg
