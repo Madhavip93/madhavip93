@@ -28,7 +28,7 @@ docReady(function() {
     $.get( "portfolio-items.txt", function( data ) {
         var lines = data.split("\n");
 
-        console.log(lines);
+        lines = lines.filter(line => line.length > 0);
 
         var renderedPortfolioItems = [];
         for (var i = 0; i < lines.length; i+=2) {
