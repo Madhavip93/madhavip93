@@ -17,7 +17,7 @@ function renderRow(portfolioItem1, portfolioItem2) {
 }
 
 function renderPortfolioItem(image, text) {
-    return '<div class="col-sm-4 text-center portfolio-item">\n' +
+    return '<div class="col-sm-5 text-center portfolio-item">\n' +
         '        <img src="static/images/samples/'+ image + '" style="width: 100%">\n' +
         '        <p class="image-subtitle italics">' + text + '</p>\n' +
         '    </div>';
